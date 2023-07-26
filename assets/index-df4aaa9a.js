@@ -75,7 +75,7 @@ Error generating stack: `+i.message+`
  colonia:${z.colonia}
  municipio: ${z.municipio}   
  referencia: ${z.referencia} 
-`,Tr=z=>` Repartidor : ${z.nombre} `,Bt=async(z,re)=>{let X=jr(G);const be=ie?kr(ie):"",wn=J?Tr(J):"",me="http://localhost:8000",Cn="http:192.168.1.10:8000",ys=await new ge(me).Iniciar().DeshabilitarElModoDeCaracteresChinos().EstablecerAlineacion(ge.ALINEACION_CENTRO).Corte(1).EstablecerEnfatizado(!0).EscribirTexto(`CARNES EL CAMPERO 
+`,Tr=z=>` Repartidor : ${z.nombre} `,Bt=async(z,re)=>{let X=jr(G);const be=ie?kr(ie):"",wn=J?Tr(J):"",me="http://localhost:8000",Cn="http://192.168.1.10:8000",ys=await new ge(me).Iniciar().DeshabilitarElModoDeCaracteresChinos().EstablecerAlineacion(ge.ALINEACION_CENTRO).Corte(1).EstablecerEnfatizado(!0).EscribirTexto(`CARNES EL CAMPERO 
 `).EscribirTexto(`FECHA: ${z.date}
 `).EscribirTexto(`TEL: 951-1331147
 `).EscribirTexto(`WhatsApp: 951-1967744
